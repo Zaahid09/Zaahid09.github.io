@@ -1,0 +1,41 @@
+{
+  "experiences": {
+    "research": [
+      {
+        "logo": "img/cbl-group-logo-png_seeklogo-487057.png",
+        "role": "Digital Marketing Intern",
+        "aff": "Ceylon Biscuits Limited(CBL GROUP), Colombo · Onsite",
+        "period": "Aug 2025 - Feb 2026",
+        "dept": "Marketing Department of CBL Group",
+        "points": [
+          "Supported campaigns to increase the digital presence of Munchee and its sub brands across multiple platforms."
+        ]
+      }
+    ],
+    "teaching": [
+      {
+        "logo": "img/Madtown.png",
+        "role": "Video Editor for Social Media",
+        "aff": "Madtown Group (PVT) LTD , Remote",
+        "dept": "",
+        "period": "Aug 2024 - July 2025",
+        "points": [
+          "Edited videos for social media",
+          "Used tools like Adobe Premiere Pro and After Effects to edit client videos."
+        ]
+      }
+    ],
+    "professional": [
+      {
+        "logo": "img/Fatcrab.png",
+        "role": "Social Media Manager",
+        "aff": "THE FAT CRAB , Colombo · Hybrid",
+        "dept": "",
+        "period": "April 2025 - June 2025",
+        "points": [
+          "Managed and organized content for the restaurant's social media pages, improved online engagement through targeted posts and story strategies and collaborated on branding ideas to attract new customers."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,175 @@
+#Zaahid-navbar {
+  height: 64px;
+  margin-bottom: 20px;
+}
+
+#Zaahid-navbar-img {
+  height: 32px;
+  width: 32px;
+  margin: 5px;
+  background: url("../img/Photo.jpeg");
+}
+
+#Zaahid-home-about-pre {
+  height: 100px;
+}
+
+#Zaahid-home-about-img {
+  height: 100px;
+  margin: 5px;
+  width: 100px;
+}
+
+#Zaahid-home-about-home {
+  font-size: 20px;
+}
+#Zaahid-home-about-home2 {
+  font-size: 20px;
+}
+
+#Zaahid-home-about-p {
+  font-size: 14px;
+}
+
+#Zaahid-home-badge {
+  margin-top: 10px;
+}
+
+.Zaahid-edu-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.Zaahid-edu-title {
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+.Zaahid-edu-subtitle {
+  margin: 0px;
+  margin-bottom: 4px;
+}
+
+.Zaahid-edu-para {
+  margin: 0px;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.Zaahid-edu-list {
+  font-size: 14px;
+}
+
+.Zaahid-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 30px 20px;
+  border: 1px solid #b8b4b43d;
+  border-radius: 0.8rem;
+}
+
+.Zaahid-container-light {
+  background-color: white;
+  color: black;
+}
+
+.Zaahid-container-dark {
+  background-color: #212528;
+  color: #ffffff;
+}
+
+.Zaahid-group-item {
+  border: none;
+}
+
+.Zaahid-section-header {
+  padding: 5px;
+}
+
+.Zaahid-show-more {
+  border: 1px solid #b8b4b43d;
+}
+
+.Zaahid-svg-span {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.flip-container {
+  perspective: 1000px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.flipper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 1s ease-in-out;
+}
+
+.flipped .flipper {
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 50%;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.theme-toggle-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none; /* Removes focus outline */
+}
+
+.theme-toggle-btn svg {
+  width: 20px;
+  height: 20px;
+  color: inherit; /* Takes text color based on the theme */
+  transition: transform 0.2s ease-in-out;
+}
+
+.theme-toggle-btn:hover svg {
+  transform: scale(1.1);
+}
+
+.article-image-box {
+  max-width: 200px;
+  text-align: center;
+  float: left;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.article-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.article-image-caption {
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+  line-height: 1.4;
+  font-weight: 500;
+}
